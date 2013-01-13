@@ -1,10 +1,13 @@
 {
-	"id": "org.apache.cordova.webos",
-	"version": "0.0.1",
-	"vendor": "HP",
+	"id": "com.translunardesigns.topwatch",
+	"version": "1.0.0",
+	"vendor": "Trans Lunar Designs Incorporated",
 	"type": "web",
 	"main": "index.html",
-	"title": "Cordova WebOS",
-	"icon": "cordova_48.png",
-	"uiRevision": 2
+	"title": "Top Watch",
+	"icon": "icon.png",
+	"smallicon": "assets/images/LogoColor32.png",
+	"splashicon": "assets/images/splashicon.png",
+	"splashBackground": "assets/images/splashscreen.png",
+	"uiRevision":2
 }
