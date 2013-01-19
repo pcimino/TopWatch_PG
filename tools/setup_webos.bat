@@ -16,3 +16,5 @@ xcopy /S /Q /R /Y %BASE%\codeBase\* %BASE%\%TARGET%\.
 ::rmdir /S /Q %BASE%\%TARGET%\.git 
 del /F /Q %BASE%\%TARGET%\.git*
 
+# copy project specific files
+xcopy /S /Q /R /Y %BASE%\config\webos\* %BASE%\%TARGET%\.

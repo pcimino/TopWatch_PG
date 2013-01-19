@@ -15,3 +15,7 @@ cp -f -R $BASE/codeBase/* $TARGET_DIR
 
 # Remove Git related files
 rm -f -R $TARGET_DIR/.git $TARGET_DIR/.git*
+
+# copy project specific files
+cp -f -R $BASE/codeBase/webos/* $TARGET_DIR
+
