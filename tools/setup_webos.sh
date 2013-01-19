@@ -12,3 +12,6 @@ mkdir $TARGET_DIR
 
 # Copy the code into the framework directory
 cp -f -R $BASE/codeBase/* $TARGET_DIR
+
+# Remove Git related files
+rm -f -R $TARGET_DIR/.git $TARGET_DIR/.git*

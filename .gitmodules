@@ -1,3 +1,3 @@
-[submodule "codeBase"]
-	path = codeBase
+[submodule "codebase"]
+	path = codebase
 	url = https://github.com/pcimino/TopWatch.git
